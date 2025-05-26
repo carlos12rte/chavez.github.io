@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Artistas con más premios</title>
+   <style>
+        body {
+            background-color: #0d0d0d;
+            color: white;
+            font-family: 'Arial Black', sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff0055, #ffcc00);
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 50px;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px #000;
+        }
+        a.back {
+            color: #ffcc00;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        a.back:hover {
+            color: #ff00ff;
+        }
+        .content {
+            padding: 30px;
+            display: grid;
+            gap: 20px;
+        }
+        .card {
+            background-color: #1f1f1f;
+            border: 1px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: scale(1.02);
+            border-color: #00ffff;
+        }
+        .card h2 {
+            color: #ffcc00;
+            margin-top: 0;
+        }
+        .card p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Artistas con más premios</h1>
+    <a class="back" href="index.html">⬅ Volver a mafaaa</a>
+</header>
+
+<div class="content">
+    <div class="card">
+        <h2>Shakira 🏆</h2>
+        <p>Más de 400 premios, incluyendo 3 Grammy, 12 Grammy Latinos y múltiples Billboard y MTV Awards.</p>
+    </div>
+    <div class="card">
+        <h2>Bad Bunny 🏆</h2>
+        <p>Artista más escuchado en el mundo (Spotify), múltiples Latin Grammy, Billboard y American Music Awards.</p>
+    </div>
+    <div class="card">
+        <h2>Juanes 🏆</h2>
+        <p>26 Grammy Latinos, 2 Grammy, y una carrera que mezcla rock latino con contenido social y cultural.</p>
+    </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Artistas Populares – mafaaa</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: white;
+            font-family: 'Arial Black', sans-serif;
+            margin: 0;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff0055, #ffcc00);
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 50px;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+            text-shadow: 2px 2px #000;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .artist {
+            background-color: #1f1f1f;
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(255, 0, 85, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .artist:hover {
+            transform: scale(1.03);
+        }
+
+        .artist img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .artist h2 {
+            color: #00ffff;
+            margin-bottom: 10px;
+        }
+
+        .artist p {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #ddd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #111;
+            color: #555;
+            font-size: 14px;
+        }
+
+        /* Estilo del enlace para volver */
+        .back {
+            background-color: #ff0055;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .back:hover {
+            background-color: #cc0044;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Artistas Populares</h1>
+    <a class="back" href="index.html">⬅ Volver a mafaaa</a>
+</header>
+
+<div class="container">
+    <div class="artist">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg/250px-Bad_Bunny_2019_by_Glenn_Francis_%28cropped%29.jpg" alt="Bad Bunny">
+        <h2>Bad Bunny</h2>
+        <p>Bad Bunny es un cantante y compositor puertorriqueño que ha transformado la música urbana con su estilo innovador, rompiendo barreras culturales y de género.</p>
+    </div>
+
+    <div class="artist">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqA5e8NrIYuikGykrN9Rt5H86KWKfkVbUBr-fLDECfM82j64xbNKMoqzDpm5TyCtzxwfE-OIgbZoUOEDVJaPLdfA" alt="Shakira">
+        <h2>Shakira</h2>
+        <p>Shakira es una superestrella colombiana reconocida mundialmente por su voz única, habilidades de baile y éxitos que fusionan pop latino, rock y reguetón.</p>
+    </div>
+
+    <div class="artist">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2NS2DNO1NQqa3e8MVLUo03sPisPWilT8L_g&s" alt="Rauw Alejandro">
+        <h2>Rauw Alejandro</h2>
+        <p>Rauw Alejandro destaca por su versatilidad musical y su energía en el escenario, combinando reguetón moderno con electrónica y R&B.</p>
+    </div>
+
+    <div class="artist">
+        <img src="https://i.ytimg.com/vi/6B76JriqgSY/maxresdefault.jpg" alt="J Balvin">
+        <h2>J Balvin</h2>
+        <p>J Balvin ha sido clave en la internacionalización del reguetón. Con estilo vibrante y colaboraciones globales, es uno de los artistas latinos más influyentes.</p>
+    </div>
+
+    <div class="artist">
+        <img src="https://ca-times.brightspotcdn.com/dims4/default/e25a142/2147483647/strip/true/crop/3500x2333+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff6%2F2a%2F5614c375f28769589386537dbb47%2Fc9739d852d904ae382c3b5c7f829a0a0" alt="Karol G">
+        <h2>Karol G</h2>
+        <p>Karol G es una de las mujeres más destacadas del género urbano. Su autenticidad, voz poderosa y mensajes de empoderamiento la han hecho mundialmente famosa.</p>
+    </div>
+     <div class="artist">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Feid%2C_Castigo_music_video%3B_Mar_2022.jpg/250px-Feid%2C_Castigo_music_video%3B_Mar_2022.jpg" alt="Shakira">
+        <h2>Feid</h2>
+        <p>Durante los inicios de su carrera musical, se destacó por componer canciones célebres como «Secretos» de Reykon, Ginza de J Balvin y Mamita de CNCO, todas las cuales lograron entrar en la lista Hot Latin Songs de Billboard</p>
+    </div>
+</div>
+
+<footer>
+    <p>© 2025 mafaaa – Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
